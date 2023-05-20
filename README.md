@@ -6,6 +6,8 @@ Using the template:
 
 [Lilypond](https://lilypond.org/) source code for XXX.
 
+WIP for arrangement.
+
 # Recording
 
 - To be recorded
