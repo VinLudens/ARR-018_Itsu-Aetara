@@ -74,8 +74,29 @@ right = \absolute {
   
   \key bes \major
   \time 12/8
+  \tempo 4. = 72
 
-  <bes' d'' f'' bes''>
+  <bes' d'' f'' bes''>4. <a' d'' f'' a''>8. <g' d'' f'' g''>
+  <g' c'' e'' g''>4. <f' c'' e'' f''>4. |
+  <bes' d'' g'' bes''>4. <a' d'' g'' a''>8. <g' d'' g''> 
+  <g' a' c'' g''>4. <f' a' c'' f''>4. |
   
+  <bes' e'' g'' bes''>4. <a' es'' a''>8. <g' es'' g''>
+  <f' a' c'' f''>4 ~ q16 d''16 <cis' e' bes'>4. |
+  <c' es' g' c''>8. <d' d''> <f' f''> <d' d''>
+  <c' c''>4 ~ q16 <d' d''> q4 r16 <bes bes'> |
+  
+  \time 23/16
+  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
+  <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
+  f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |
+  \time 6/8
+  <d' d''>16 g' d'' d'' g'' <d'' d'''>  <d'' d'''>16 g'' d''' d''' g''' d'''' |
+  \time 2/4 \tempo 4 = 72
+  <c''' c''''>16 <bes'' bes'''> <bes'' bes'''> <bes'' bes'''> <g'' g'''>16. <bes'' bes'''> <c''' c''''>16
+  
+  \time 4/4
+  <bes'' bes'''>
 
 }
