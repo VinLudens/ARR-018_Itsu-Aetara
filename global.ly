@@ -6,8 +6,8 @@ global = {
   \time 4/4
   \overrideTimeSignatureSettings
     23/16        % timeSignatureFraction
-    1/8        % baseMomentFraction
-    3,3,3,3        % beatStructure
+    1/16       % baseMomentFraction
+    6,5,6,6        % beatStructure
     #'()       % beamExceptions
 }
 
