@@ -97,6 +97,40 @@ right = \absolute {
   <c''' c''''>16 <bes'' bes'''> <bes'' bes'''> <bes'' bes'''> <g'' g'''>16. <bes'' bes'''> <c''' c''''>16
   
   \time 4/4
-  <bes'' bes'''>
+
+  << { \voiceOne
+      <bes'' bes'''>4 ~ bes''2. ~ |
+      4 r2. |
+      \voiceTwo f'4 g' f' d' |
+      es'2 f' |
+    }
+    \new Voice { \voiceTwo
+      bes''4 c''8. bes'16 d''4 \change Staff = "left" \voiceOne \clef "treble" f'16 g' bes' \change Staff = "right" \oneVoice f'' |
+      bes'4 \acciaccatura g'8 a'8 g' f'4 bes'8 f' |
+      \voiceOne bes'4 d''8 c'' bes'4 a'8 f' |
+      bes'2 bes'4\fermata a'\fermata |
+    }
+  >> \oneVoice
+
+  \bar "||"
+
+
+  g'''8 bes''16 bes'' ~ 16 g'''8 f'''16 ~ 16 d'''8 c'''16 ~ 16 bes'' bes'' g'' |
+  bes''8. bes''16 c''' bes'' d''' 8 ~ 2 |
+  g'''8 bes''16 bes'' ~ 16 g'''8 f'''16 ~ 16 d'''8 c'''16 ~ 16 bes'' bes'' g'' |
+  bes''8. bes''16 c''' d''' c''' bes''16 ~ 4 r8. bes'16 |
+
+  << { \voiceTwo
+      <g' bes'>16 <a' c''> \change Staff = "left" \clef "treble" \voiceOne <bes' d''>8 <g' bes'>16 <a' c''> <bes' d''>  \change Staff = "right" \voiceTwo <c'' es''> <d'' f''> <bes' d''> \change Staff = "left" \voiceOne \clef "treble" <a' c''> <bes' d''> <a' c''> <g' bes'>8. |
+      \change Staff = "right" \voiceTwo <g' bes'>16 <a' c''> \change Staff = "left" \clef "treble" \voiceOne <bes' d''>8 <g' bes'>16 <g' bes'> <g' bes'>8 \change Staff = "right" \voiceTwo a''8 bes''16 a'' ~ 16 g'' f''8 |
+    }
+    \new Voice { \voiceOne
+      r8.-"small" bes''16 d''' bes'' f'''8 r8. bes''16 a'' g'' f'' es'' |
+      d''8. f''16 bes'' c''' d''' f''' <f''' a'''>8 <g''' bes'''>16 <f''' a'''> ~ 16 <es''' g'''> <d''' f'''>8 |
+    }
+  >> \oneVoice
+
+  r8 <d'' f''>16 <a'' c'''> ~ 16 <f'' a''>8 <es'' g''>16 <d'' fis''>16 <d'' fis''>8 d''16 d'' d'' c'' c'' |
+  bes'8. g'16 d''4 \acciaccatura { c''8 d''  } <f' c''>4 <g' b' d''> |
 
 }

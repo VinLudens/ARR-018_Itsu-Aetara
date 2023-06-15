@@ -97,6 +97,40 @@ left = \absolute {
   <f, f>4 ~ f |
   
   \time 4/4
-  <es g bes>4
+
+
+  <es g bes>4 <f a c'> <g bes d'>4 \voiceTwo r \voiceOne |
+  \clef "bass" <es g bes>4 <f a c'> <f bes d'> <d g bes> |
+  <es g bes>4 <f a d'> <g bes d'> <f a c'> |
+  <c es g bes>4. c16 d <es f>2 |
+
+
+
+
+
+
+
+
+
+  \bar "||"
+
+  \clef "treble"
+  bes''16 g'' es'' bes' es''16 g'' bes'' g'' a''16 f'' d'' a'' f''16 d'' a'' f'' |
+  g''16 es'' c'' g'' es''16 c'' g'' es'' a''16 f'' bes' a'' f''16 bes' a'' f'' |
+  bes''16 g'' es'' bes' es''16 g'' bes'' g'' a''16 f'' d'' a'' f''16 d'' a'' f'' |
+  es''16 bes' g' bes' f''16 es'' d'' es'' bes'4 \clef "bass" \voiceTwo fis4 |
+
+
+  es2 \clef "bass" d |
+  \clef "bass" c \voiceOne \clef "bass" bes,16 f bes d'  bes f bes,8 |
+
+
+
+
+
+
+
+  c16 g c' g  c g c' g  d a d' a  d a d' a |
+  es16 bes es' bes  es bes es' bes  <f c' es'>4 <g d' f'>8 g, |
 
 }
