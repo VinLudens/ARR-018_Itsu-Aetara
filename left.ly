@@ -133,4 +133,43 @@ left = \absolute {
   c16 g c' g  c g c' g  d a d' a  d a d' a |
   es16 bes es' bes  es bes es' bes  <f c' es'>4 <g d' f'>8 g, |
 
+
+  \key c \major
+
+
+  c,8 e <g c'> e e b e' b |
+  a,8 e c' e a, e a e |
+  d8 a d' a e b d' b |
+  <f, f>8. c16 <g, g>4 <aes, es c'>\arpeggio <bes, f d'>\arpeggio |
+
+
+
+
+
+
+
+
+
+  c16 g c' d'  e'16 c g c' e16 b e' b  gis16 b e' b  |
+  a16 c' e' c'  g'16 e' c'8  g16 b d' b  g4  |
+  <f c'>4 <e b> <d a> <g b d'> |
+  
+  \tuplet 6/4 { e,16 g, b, e g b } \repeat tremolo 12 { d'32 b } |
+  \repeat tremolo 8 { a32 c'32 }  \appoggiatura d32 \repeat tremolo 8 { a32 f32 }
+  \appoggiatura e,8 \repeat tremolo 8 { g32 e32 }  \tuplet 7/4 { es,16 bes, es g bes es' g' } r4 |
+
+
+
+
+
+
+
+
+  c,4 d, es, f, |
+  
+  \key bes \major
+  \time 12/8
+  
+
+  bes,,16 f, bes, d f bes d' bes f d bes, f, 
 }
