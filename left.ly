@@ -171,5 +171,58 @@ left = \absolute {
   \time 12/8
   
 
-  bes,,16 f, bes, d f bes d' bes f d bes, f, 
+  bes,,16 f, bes, d f bes d' bes f d bes, f,
+  a,,16 c, e, a, c e f' c' a f c a, |
+  g,16 d g a bes g g, d g bes g d 
+  f,16 c f g a f f, c f a g f |
+  
+  e,16 b, e bes g e es, bes, es g es bes, 
+  d,16 a, d f d a, cis, gis, cis e cis gis, | \set tieWaitForNote = ##t
+  c,16 g, c g, es g, c, g, c g, es g,
+  <f,, f,>8. \repeat tremolo 6 { f,,32 ~ f, } f,,8. | \unset tieWaitForNote
+
+  % time signature
+  <c, c>16 g,-"small notes" c c g c'  c'16 g' c'' c'' g'' c'''
+  g''16 c'' c'' g' c' c'  g16 c c g, c,16 |
+  <d, d>16 a, d d a d'  d'16 a' d'' d'' a'' d'''
+  a''16 d'' d'' a' d' d'  a16 d d a, d,16 |
+  <es, es>16 bes, es es bes es'  es'16 bes' es'' r8.
+  <es, es>16 bes, es es bes es'  bes16 es es bes, es,16 |
+  % time signature
+  <d, d>16 a, d d a d'  d'16 a' d'' r8.
+  <g,, g,>4. <f,, f,>4. |
+
+  % time signature
+  <c, c>16 g,-"small notes" c c g c'  c'16 g' c'' c'' g'' c'''
+  g''16 c'' c'' g' c' c'  g16 c c g, c,16 |
+  <d, d>16 a, d d a d'  d'16 a' d'' d'' a'' d'''
+  a''16 d'' d'' a' d' d'  a16 d d a, d,16 |
+
+  % time signature
+  <es, es>16 bes, es es bes es'  es'16 bes' es'' r8. |
+  % time signature
+  <f, f>4 ~ f |
+  
+  \time 4/4
+
+
+  <es g bes>4 <f a c'> <g bes d'>4 \voiceTwo r \voiceOne |
+  \clef "bass" <es g bes>4 <f a c'> <g bes d'>4 r |
+  <es g bes>4 <f a d'> <g bes d'> <f a c'> |
+  c16 es fis bes c' es' fis' bes' f2 |
+  
+
+
+
+
+
+
+
+
+  r4 bes,16 d f a bes d' f' a' bes' d'' f'' a'' |
+  \ottava -1 <bes,,, bes,,>1 |
+  
+  \bar "|."
+  
 }
+

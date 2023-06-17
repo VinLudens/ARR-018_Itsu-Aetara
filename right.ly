@@ -77,7 +77,7 @@ right = \absolute {
   \tempo 4. = 72
 
   <bes' d'' f'' bes''>4. <a' d'' f'' a''>8. <g' d'' f'' g''>
-  <g' c'' e'' g''>4. <f' c'' e'' f''>4. |
+  <g' c'' e'' g''>4. <\parenthesize f' c'' e'' f''>4. |
   <bes' d'' g'' bes''>4. <a' d'' g'' a''>8. <g' d'' g''> 
   <g' a' c'' g''>4. <f' a' c'' f''>4. |
   
@@ -172,4 +172,56 @@ right = \absolute {
   \tempo 4. = 72
 
   <bes' d'' f'' bes''>4. <a' d'' f'' a''>8. <g' d'' f'' g''>
+  <g' c'' e'' g''>4. <\parenthesize f' c'' e'' f''>4. |
+  <bes' d'' g'' bes''>4. <a' d'' g'' a''>8. <g' d'' g''> 
+  <g' a' c'' g''>4. <f' a' c'' f''>4. |
+  
+  <bes' e'' g'' bes''>4. <a' es'' a''>8. <g' es'' g''>
+  <f' a' c'' f''>4 ~ q16 d''16 <cis' e' bes'>4. |
+  <c' es' g' c''>8. <d' d''> <f' f''> <d' d''>
+  <c' c''>4 ~ q16 <d' d''> q4 r16 <bes bes'> |
+  
+  \time 23/16
+  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
+  <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
+  f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |
+  <d' d''>16 g' d'' d'' g'' <d'' d'''>  <d'' d'''>8. d''16 g'' d'''
+  \tuplet 4/6 { <c'' fis'' c'''>16 <bes' fis'' bes''> <bes' fis'' bes''> <bes' fis'' bes''> } <g' g''>8 <bes' bes''>  <c'' c'''>16 ~ |
+  \time 12/8
+  \tuplet 4/6 { 16 <bes' bes''>8 <d'' f'' d'''>16 ~ } 8.
+  c''''8. bes'''16 a''' f''' d''' bes''  a'' f'' d'' bes' a'16 f' <bes bes'>
+
+  \time 23/16
+  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
+  <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
+  f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |
+
+  \time 6/8
+  <d' d''>16 g' d'' d'' g'' <d'' d'''>  <d'' d'''>16 g'' d''' d''' g''' d'''' |
+  \time 2/4 \tempo 4 = 72
+  <c''' c''''>16 <bes'' bes'''> <bes'' bes'''> <bes'' bes'''> <g'' g'''>16. <bes'' bes'''> <c''' c''''>16
+  
+  \time 4/4
+
+  << { \voiceOne
+      <bes'' bes'''>4 ~ bes''2. |
+      \voiceTwo r4 d'' c'' r4 |
+      \voiceTwo <d' f'>4 <es' g'> <f' a'> <d' f'> |
+      s1 |
+    }
+    \new Voice { \voiceTwo
+      bes''4 c''8. d''16 f''4 \change Staff = "left" \voiceOne \clef "treble" a'16 bes' \change Staff = "right" \oneVoice  d'' f'' |
+      \voiceOne \acciaccatura gis''8 a''8. bes''16 \voiceOne f''8. g''16 f''4 \acciaccatura es''8 f''16 es'' d'' c''  |
+      \voiceOne bes'8. g'16-"cross voice tie" d''8 c''8 ~ 8 bes'16 a' f'8 es'16 d' |
+      es'2 \arpeggioArrowUp <c' es' fis' bes'>4\arpeggio c'' |
+    }
+  >> \oneVoice
+  
+  \arpeggioArrowDown <a' d'' f'' a''>1\arpeggio\fermata |
+  \arpeggioArrowUp <f'' a'' c''' d'''>1\arpeggio |
+
+  \bar "|."
+
 }
