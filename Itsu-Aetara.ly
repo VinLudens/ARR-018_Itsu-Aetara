@@ -23,6 +23,10 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   oddHeaderMarkup = \evenHeaderMarkup
 }
 
+\include "oll-core/package.ily"
+\loadPackage edition-engraver
+\include "editions.ly"
+
 \include "global.ly"
 \include "right.ly"
 \include "left.ly"
@@ -42,7 +46,13 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
       midiInstrument = "acoustic grand"
     } { \clef bass \left }
   >>
-  \layout { }
+  \layout {
+    \context {
+      \Score
+      \editionID ##f music
+      \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
+    }
+  }
   \midi {
     %\tempo 4=80
     \set Staff.midiMaximumVolume = #0.7
