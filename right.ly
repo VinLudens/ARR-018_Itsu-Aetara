@@ -56,7 +56,7 @@ right = \absolute {
   >> \oneVoice
 
   <g' b' e''>4.. c''16 <e'' c'''>8. <d'' b''>16 <b' d''>8. <b' d''>16 |
-  <a' c''>4 r8 c''16 d'' <c'' a''> g'' e''8 r8 e''16 e''16 |
+  <a' c''>4 \voiceOne r8 \oneVoice c''16 d'' <c'' a''> g'' e''8 r8 e''16 e''16 |
   <b' c'' g''>8\arpeggio d''16 d''16 ~ <a' b' d''>16 c''16 c''8 ~ \tuplet 3/2 4 { <g' a' c''>8 c'' c'' <a' g'>8 c'' d''16 c'' ~ }  |
   
   << { \voiceOne
