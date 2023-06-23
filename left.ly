@@ -16,7 +16,7 @@ left = \absolute {
   <c' es' g' bes'>2 <bes d' a'>8 f' c'' f' |
   \clef "bass" <g bes es'>2 <f a d'> |
 
-  <c g bes>4 \acciaccatura { es8 e } f4 bes,8 e16 f fis8 fis, |
+  <c g bes>4 \acciaccatura { es8 e } f4 bes,8 e16_2 f_1 fis8_\finger \markup \tied-lyric "2~1" fis,_4 |
   
   
   
@@ -55,12 +55,12 @@ left = \absolute {
 
 
 
-  c16 g c' d'  e'16 c g c' e16 b e' b  gis16 b e' b  |
+  c16 g c' d'-2  e'16-1 c g c' e16 b e' b  gis16 b e' b  |
   a16 c' e' c'  \change Staff = "right" \voiceTwo g'16 \change Staff = "left" \oneVoice \stemDown e' c'8 \stemNeutral g16 b d' b  g4  |
   <f c'>4 <e b> <d a> <g b d'> |
   
-  \tuplet 6/4 { e,16 g, b, e g b } \repeat tremolo 12 { d'32 b } |
-  \repeat tremolo 8 { a32 c'32 }  \appoggiatura d32 \repeat tremolo 8 { a32 f32 }
+  \tuplet 6/4 { e,16 g, b, e g b } \repeat tremolo 12 { d'32-\finger "1-3" b } |
+  \repeat tremolo 8 { a32-\finger "4-2" c'32 }  \appoggiatura d32-5 \repeat tremolo 8 { a32 f32 }
   \appoggiatura e,8 \repeat tremolo 8 { g32 e32 }  \tuplet 7/4 { es,16 bes, es g bes es' g' } r4 |
 
 
@@ -78,12 +78,12 @@ left = \absolute {
 
   bes,,16 f, bes, d f bes d' bes f d bes, f, 
   a,,16 c, e, a, c e f' c' a f c a, |
-  g,16 d g a bes g g, d g bes g d 
-  f,16 c f g a f f, c f a g f |
+  g,16 d g a-3 bes-2 g-1 g,-2 d g bes g d 
+  f,16 c f g-3 a-2 f-1 f, c f a-3 g-2 f-1 |
   
-  e,16 b, e bes g e es, bes, es g es bes, 
+  e,16 b, e-1 bes-2 g-1 e-2 es,-5 bes, es g es bes, 
   d,16 a, d f d a, cis, gis, cis e cis gis, | \set tieWaitForNote = ##t
-  c,16 g, c g, es g, c, g, c g, es g,
+  c,16 g, c-1 g,-2 es-1 g,-2 c, g, c g, es g,
   <f,, f,>8. \repeat tremolo 6 { f,,32 ~ f, } f,,8. | \unset tieWaitForNote
 
   % time signature
@@ -118,7 +118,7 @@ left = \absolute {
   bes''16 g'' es'' bes' es''16 g'' bes'' g'' a''16 f'' d'' a'' f''16 d'' a'' f'' |
   g''16 es'' c'' g'' es''16 c'' g'' es'' a''16 f'' bes' a'' f''16 bes' a'' f'' |
   bes''16 g'' es'' bes' es''16 g'' bes'' g'' a''16 f'' d'' a'' f''16 d'' a'' f'' |
-  es''16 bes' g' bes' f''16 es'' d'' es'' bes'4 \clef "bass" \voiceTwo fis4 |
+  es''16-1 bes' g' bes' f''16 es'' d'' es'' bes'4 \clef "bass" \voiceTwo fis4 |
 
 
   es2 \clef "bass" d |
