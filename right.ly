@@ -131,7 +131,7 @@ right = \absolute {
   >> \oneVoice
 
   r8 <d'' f''>16 <a'' c'''> ~ 16 <f'' a''>8 <es'' g''>16 <d'' fis''>16 <d'' fis''>8 d''16 d'' d'' c'' c'' |
-  bes'8. g'16 d''4 \acciaccatura { c''8 d''  } <f' c''>4 <g' b' d''> |
+  bes'8. g'16 d''4 <f' a' d''>4\turn <g' b' d''> |
 
 
   \key c \major
