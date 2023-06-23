@@ -87,7 +87,7 @@ right = \absolute {
   <c' c''>4 ~ q16 <d' d''> q4 r16 <bes bes'> |
   
   \time 23/16
-  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  <bes bes'>16 es' bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
   es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
   <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
   f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |
@@ -125,8 +125,8 @@ right = \absolute {
       \change Staff = "right" \voiceTwo <g' bes'>16 <a' c''> \change Staff = "left" \clef "treble" \voiceOne <bes' d''>8 <g' bes'>16 <g' bes'> <g' bes'>8 \change Staff = "right" \voiceTwo a''8 bes''16 a'' ~ 16 g'' f''8 |
     }
     \new Voice { \voiceOne
-      r8.-"small" bes''16 d''' bes'' f'''8 r8. bes''16 a'' g'' f'' es'' |
-      d''8. f''16 bes'' c''' d''' f''' <f''' a'''>8 <g''' bes'''>16 <f''' a'''> ~ 16 <es''' g'''> <d''' f'''>8 |
+      r8. bes''16 d''' bes'' f'''8 r8. bes''16 a'' g'' f'' es'' |
+      d''8. \ottava 1 f''16 bes'' c''' d''' f''' <f''' a'''>8 <g''' bes'''>16 <f''' a'''> ~ 16 <es''' g'''> <d''' f'''>8 | \ottava 0
     }
   >> \oneVoice
 
@@ -182,7 +182,7 @@ right = \absolute {
   <c' c''>4 ~ q16 <d' d''> q4 r16 <bes bes'> |
   
   \time 23/16
-  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  <bes bes'>16 es' bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
   es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
   <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
   f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |
@@ -193,7 +193,7 @@ right = \absolute {
   c''''8. bes'''16 a''' f''' d''' bes''  a'' f'' d'' bes' a'16 f' <bes bes'>
 
   \time 23/16
-  <bes bes'>16 es'-"small notes" bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
+  <bes bes'>16 es' bes' bes' es'' <bes' bes''>  <bes' bes''>16 es'' bes'' bes'' es''' bes'''
   es'''16 bes'' bes'' es'' bes' bes'  es'16 bes r8 <c' c''>16 |
   <c' c''>16 f' c'' c'' f'' <c'' c'''>  <c'' c'''>16 f'' c''' c''' f''' c''''
   f'''16 c''' c''' f'' c'' c''  f'16 c' r8 <d' d''>16 |

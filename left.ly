@@ -87,14 +87,14 @@ left = \absolute {
   <f,, f,>8. \repeat tremolo 6 { f,,32 ~ f, } f,,8. | \unset tieWaitForNote
 
   % time signature
-  <c, c>16 g,-"small notes" c c g c'  c'16 g' c'' c'' g'' c'''
-  g''16 c'' c'' g' c' c'  g16 c c g, c,16 |
-  <d, d>16 a, d d a d'  d'16 a' d'' d'' a'' d'''
-  a''16 d'' d'' a' d' d'  a16 d d a, d,16 |
+  <c, c>16 g, c c g c'  \clef "treble" c'16 g' c'' c'' g'' c'''
+  g''16 c'' c'' g' c' \clef "bass" c'  g16 c c g, c,16 |
+  <d, d>16 a, d d a d'  \clef "treble" d'16 a' d'' d'' a'' d'''
+  a''16 d'' d'' a' d' \clef "bass" d'  a16 d d a, d,16 |
   % time signature
-  <es, es>16 bes, es es bes es'  es'16 bes' es'' r8. |
+  <es, es>16 bes, es es bes es'  \clef "treble" es'16 bes' es'' r8. |
   % time signature
-  <f, f>4 ~ f |
+  \clef "bass" <f, f>4 ~ f |
   
   \time 4/4
 
@@ -182,26 +182,26 @@ left = \absolute {
   <f,, f,>8. \repeat tremolo 6 { f,,32 ~ f, } f,,8. | \unset tieWaitForNote
 
   % time signature
-  <c, c>16 g,-"small notes" c c g c'  c'16 g' c'' c'' g'' c'''
-  g''16 c'' c'' g' c' c'  g16 c c g, c,16 |
-  <d, d>16 a, d d a d'  d'16 a' d'' d'' a'' d'''
-  a''16 d'' d'' a' d' d'  a16 d d a, d,16 |
-  <es, es>16 bes, es es bes es'  es'16 bes' es'' r8.
-  <es, es>16 bes, es es bes es'  bes16 es es bes, es,16 |
+  <c, c>16 g, c c g c'  \clef "treble" c'16 g' c'' c'' g'' c'''
+  g''16 c'' c'' g' c' \clef "bass" c'  g16 c c g, c,16 |
+  <d, d>16 a, d d a d'  \clef "treble" d'16 a' d'' d'' a'' d'''
+  a''16 d'' d'' a' d' \clef "bass" d'  a16 d d a, d,16 |
+  <es, es>16 bes, es es bes es'  \clef "treble" es'16 bes' es'' r8.
+  \clef "bass" <es, es>16 bes, es es bes es'  bes16 es es bes, es,16 |
   % time signature
-  <d, d>16 a, d d a d'  d'16 a' d'' r8.
-  <g,, g,>4. <f,, f,>4. |
+  <d, d>16 a, d d a d'  \clef "treble" d'16 a' d'' r8.
+  \clef "bass" <g,, g,>4. <f,, f,>4. |
 
   % time signature
-  <c, c>16 g,-"small notes" c c g c'  c'16 g' c'' c'' g'' c'''
-  g''16 c'' c'' g' c' c'  g16 c c g, c,16 |
-  <d, d>16 a, d d a d'  d'16 a' d'' d'' a'' d'''
-  a''16 d'' d'' a' d' d'  a16 d d a, d,16 |
+  <c, c>16 g, c c g c'  \clef "treble" c'16 g' c'' c'' g'' c'''
+  g''16 c'' c'' g' c' \clef "bass" c'  g16 c c g, c,16 |
+  <d, d>16 a, d d a d'  \clef "treble" d'16 a' d'' d'' a'' d'''
+  a''16 d'' d'' a' d' \clef "bass" d'  a16 d d a, d,16 |
 
   % time signature
-  <es, es>16 bes, es es bes es'  es'16 bes' es'' r8. |
+  <es, es>16 bes, es es bes es'  \clef "treble" es'16 bes' es'' r8. |
   % time signature
-  <f, f>4 ~ f |
+  \clef "bass" <f, f>4 ~ f |
   
   \time 4/4
 

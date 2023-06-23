@@ -106,9 +106,30 @@ mintielen = #2.5
 \editionMod dynamics 28 0/16 music.Dynamics \ff
 \editionMod articulations 28 19/16 music.Voice.A \)
 \editionMod articulations 28 22/16 music.Voice.A \(
+\editionMod tweaks 28 1/16 music.Voice.A \tiny
+\editionMod tweaks 28 5/16 music.Voice.A \normalsize
+\editionMod tweaks 28 7/16 music.Voice.A \tiny
+\editionMod tweaks 28 20/16 music.Voice.A \normalsize
+\editionMod tweaks 28 0/16 music.Voice.B \normalsize
+\editionMod tweaks 28 1/16 music.Voice.B \tiny
 
 \editionMod articulations 29 19/16 music.Voice.A \)
 \editionMod articulations 29 22/16 music.Voice.A \(
+\editionMod tweaks 29 1/16 music.Voice.A \tiny
+\editionMod tweaks 29 5/16 music.Voice.A \normalsize
+\editionMod tweaks 29 7/16 music.Voice.A \tiny
+\editionMod tweaks 29 20/16 music.Voice.A \normalsize
+\editionMod tweaks 29 0/16 music.Voice.B \normalsize
+\editionMod tweaks 29 1/16 music.Voice.B \tiny
+
+\editionMod tweaks 30 1/16 music.Voice.A \tiny
+\editionMod tweaks 30 5/16 music.Voice.A \normalsize
+\editionMod tweaks 30 7/16 music.Voice.A \tiny
+\editionMod tweaks 30 0/16 music.Voice.B \normalsize
+\editionMod tweaks 30 1/16 music.Voice.B \tiny
+
+\editionMod tweaks 31 0/16 music.Voice.A \normalsize
+\editionMod tweaks 31 0/16 music.Voice.B \normalsize
 
 \editionMod dynamics 32 0/4 music.Dynamics \fp
 \editionMod dynamics 32 0/4 music.Voice.A \)
@@ -123,7 +144,10 @@ mintielen = #2.5
 \editionMod dynamics 39 3/4 music.Dynamics \mp
 \editionMod articulations 39 2/4 music.Voice.A \)
 
+\editionMod tweaks 40 0/4 music.Voice.H \tiny
+
 \editionMod dynamics 41 2/4 music.Dynamics \mf
+\editionMod tweaks 41 2/4 music.Voice.H \normalsize
 
 \editionMod dynamics 42 0/4 music.Dynamics \p
 \editionMod dynamics 42 0/4 music.Dynamics \cresc
@@ -174,11 +198,31 @@ mintielen = #2.5
 \editionMod dynamics 59 0/4 music.Dynamics \ff
 \editionMod articulations 59 19/16 music.Voice.A \)
 \editionMod articulations 59 22/16 music.Voice.A \(
+\editionMod tweaks 59 1/16 music.Voice.A \tiny
+\editionMod tweaks 59 5/16 music.Voice.A \normalsize
+\editionMod tweaks 59 7/16 music.Voice.A \tiny
+\editionMod tweaks 59 20/16 music.Voice.A \normalsize
+\editionMod tweaks 59 0/16 music.Voice.B \normalsize
+\editionMod tweaks 59 1/16 music.Voice.B \tiny
 
 \editionMod articulations 60 19/16 music.Voice.A \)
 \editionMod articulations 60 22/16 music.Voice.A \(
+\editionMod tweaks 60 1/16 music.Voice.A \tiny
+\editionMod tweaks 60 5/16 music.Voice.A \normalsize
+\editionMod tweaks 60 7/16 music.Voice.A \tiny
+\editionMod tweaks 60 20/16 music.Voice.A \normalsize
+\editionMod tweaks 60 0/16 music.Voice.B \normalsize
+\editionMod tweaks 60 1/16 music.Voice.B \tiny
 
 \editionMod dynamics 61 6/8 music.Dynamics \fff
+\editionMod tweaks 61 1/16 music.Voice.A \tiny
+\editionMod tweaks 61 5/16 music.Voice.A \normalsize
+\editionMod tweaks 61 7/16 music.Voice.A \tiny
+\editionMod tweaks 61 20/16 music.Voice.A \normalsize
+\editionMod tweaks 61 12/16 music.Voice.A \normalsize
+\editionMod tweaks 61 0/16 music.Voice.B \normalsize
+\editionMod tweaks 61 1/16 music.Voice.B \tiny
+\editionMod tweaks 61 12/16 music.Voice.B \normalsize
 
 \editionMod articulations 62 9/16 music.Voice.A ->
 \editionMod articulations 62 0/16 music.Voice.B ->
@@ -186,9 +230,30 @@ mintielen = #2.5
 
 \editionMod dynamics 63 0/4 music.Dynamics \ff
 \editionMod articulations 63 22/16 music.Voice.A \(
+\editionMod tweaks 63 1/16 music.Voice.A \tiny
+\editionMod tweaks 63 5/16 music.Voice.A \normalsize
+\editionMod tweaks 63 7/16 music.Voice.A \tiny
+\editionMod tweaks 63 20/16 music.Voice.A \normalsize
+\editionMod tweaks 63 0/16 music.Voice.B \normalsize
+\editionMod tweaks 63 1/16 music.Voice.B \tiny
 
 \editionMod articulations 64 19/16 music.Voice.A \)
 \editionMod articulations 64 22/16 music.Voice.A \(
+\editionMod tweaks 64 1/16 music.Voice.A \tiny
+\editionMod tweaks 64 5/16 music.Voice.A \normalsize
+\editionMod tweaks 64 7/16 music.Voice.A \tiny
+\editionMod tweaks 64 20/16 music.Voice.A \normalsize
+\editionMod tweaks 64 0/16 music.Voice.B \normalsize
+\editionMod tweaks 64 1/16 music.Voice.B \tiny
+
+\editionMod tweaks 65 1/16 music.Voice.A \tiny
+\editionMod tweaks 65 5/16 music.Voice.A \normalsize
+\editionMod tweaks 65 7/16 music.Voice.A \tiny
+\editionMod tweaks 65 0/16 music.Voice.B \normalsize
+\editionMod tweaks 65 1/16 music.Voice.B \tiny
+
+\editionMod tweaks 66 0/16 music.Voice.A \normalsize
+\editionMod tweaks 66 0/16 music.Voice.B \normalsize
 
 \editionMod dynamics 67 0/4 music.Dynamics \fp
 \editionMod articulations 67 0/4 music.Voice.A \)
