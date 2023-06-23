@@ -122,7 +122,7 @@ left = \absolute {
 
 
   es2 \clef "bass" d |
-  \clef "bass" c \voiceOne \clef "bass" bes,16 f bes d'  bes f bes,8 |
+  \clef "bass" \voiceTwo c \clef "bass" bes,16 f bes d'  bes f bes,8 | \oneVoice
 
 
 
