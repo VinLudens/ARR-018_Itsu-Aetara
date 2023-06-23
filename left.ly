@@ -6,9 +6,9 @@ left = \absolute {
 
 
   <es g bes>4 <f a c'> <g bes d'>4 r |
-  <es g bes>4 <f a c'> <f bes d'> <d g bes>-"Chord?" |
-  <es g bes>4 <f a d'>-"Chord?" <g bes d'> <f a c'> |
-  <c es g bes>2 <c es f>-"Chord?" |
+  <es g bes>4 <f a c'> <f bes d'> <d g bes> |
+  <es g bes>4 <f a d'> <g bes d'> <f a c'> |
+  <c es g bes>2 <c es f> |
   
   \bar "||"
 
