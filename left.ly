@@ -209,7 +209,7 @@ left = \absolute {
   <es g bes>4 <f a c'> <g bes d'>4 \voiceTwo r \voiceOne |
   \clef "bass" <es g bes>4 <f a c'> <g bes d'>4 r |
   <es g bes>4 <f a d'> <g bes d'> <f a c'> |
-  c16 es fis bes c' es' fis' bes' f2 |
+  c16 es fis bes \change Staff = "right" \voiceTwo c' es' fis' bes' \change Staff = "left" \oneVoice f2 |
   
 
 
