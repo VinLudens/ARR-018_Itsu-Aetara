@@ -219,6 +219,12 @@ left = \absolute {
 
 
 
+
+
+
+
+
+
   r4 bes,16 d f a bes d' f' \change Staff = "right" \oneVoice a' bes' d'' f'' a'' | \change Staff = "left"
   \ottava -1 <bes,,, bes,,>1 |
   

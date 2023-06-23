@@ -214,8 +214,14 @@ right = \absolute {
     \new Voice { \voiceTwo
       bes''4 c''8. d''16 f''4 \change Staff = "left" \voiceOne \clef "treble" a'16 bes' \change Staff = "right" \oneVoice  d'' f'' |
       \voiceOne \acciaccatura gis''8 a''8. bes''16 \voiceOne f''8. g''16 f''4 \acciaccatura es''8 f''16 es'' d'' c''  |
-      \voiceOne bes'8. g'16-"cross voice tie" d''8 c''8 ~ 8 bes'16 a' f'8 es'16 d' |
+      \voiceOne bes'8. g'16 d''8 c''8 ~ 8 bes'16 a' f'8 es'16 d' |
       es'2 \arpeggioArrowUp <c' es' fis' bes'>4\arpeggio c'' |
+    }
+    \new Voice { \voiceTwo\hideNotes
+      s1 |
+      s1 |
+      s8. \tieUp g'16 ~ 4 \tieNeutral s2 |
+      s1 |
     }
   >> \oneVoice
   
