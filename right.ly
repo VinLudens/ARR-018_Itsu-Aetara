@@ -137,13 +137,13 @@ right = \absolute {
   \key c \major
 
   << { \voiceOne
-      e''4.. e''16 a''8. e''16 ~ 8. d''16 |
+      \once\set PianoStaff.connectArpeggios = ##t <e''>4..\arpeggio e''16 a''8. e''16 ~ 8. d''16 |
       c''4 r8 c''16 d'' f''16 e'' d''8 ~ 8 r16 c'' |
       a'16 c'' c'' c'' ~ 16 c''8 d''16 c''8 g'16 g'16 ~ 16 g'8 c''16 |
       e''8 c'' a' c'' <c'' es'' c'''>4 \appoggiatura { bes''8 c''' } <d'' f'' bes''>8 c''16 d''16 |
     }
     \new Voice { \voiceTwo
-      <g' b'>8 q q q <b' d''> q <g' b'> q |
+      <g' b'>8\arpeggio q q q <b' d''> q <g' b'> q |
       <e' g'>8 q <e' g'>4 <g' b'> <g' b'> |
       <d' f'>4 <f' a'> <e' g'> e' |
       <f' a'>4 f's s |
