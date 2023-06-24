@@ -60,7 +60,7 @@ left = \absolute {
   <f c'>4 <e b> <d a> <g b d'> |
   
   \tuplet 6/4 { e,16 g, b, e g b } \repeat tremolo 12 { d'32-\finger "1-3" b } |
-  \repeat tremolo 8 { a32-\finger "4-2" c'32 }  \appoggiatura d32-5 \repeat tremolo 8 { a32 f32 }
+  \repeat tremolo 8 { a32-\finger "4-2" c'32 }  \appoggiatura { d32\tweak X-offset #-0.05 -5 } \repeat tremolo 8 { a32 f32 }
   \appoggiatura e,8 \repeat tremolo 8 { g32 e32 }  \tuplet 7/4 { es,16 bes, es g bes es' g' } r4 |
 
 

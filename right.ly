@@ -55,7 +55,7 @@ right = \absolute {
     }
   >> \oneVoice
 
-  <g' b' e''>4.. c''16 <e''-2 c'''-5>8. <d''-1 b''-4>16 <b'-2 d''-4>8. <b' d''>16 |
+  <g' b' e''>4.. c''16 <e''-2 c'''-5>8. <d''-1 b''-4>16 <b'-\tweak extra-offset #'(0 . -0.3) -2 d''-\tweak extra-offset #'(0 . -0.4) -4>8. <b' d''>16 |
   <a' c''>4 \voiceOne r8 \oneVoice c''16-1 d''-2 <c'' a''> g'' e''8 r8 e''16 e''16 |
   <b' c'' g''>8\arpeggio d''16 d''16 ~ <a' b' d''>16 c''16 c''8 ~ \tuplet 3/2 4 { <g' a' c''>8 c'' c'' <a' g'>8 c'' d''16 c'' ~ }  |
   

@@ -62,8 +62,11 @@ mintielen = #2.5
 \editionMod articulations 14 15/16 music.Voice.A \(
 \editionMod tweaks 14 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.6
 \editionMod tweaks 14 15/16 music.Voice.A \once\alterBroken positions #'((4 . 4.5) ()) PhrasingSlur
+\editionMod tweaks 14 15/16 music.Voice.A \once\override Fingering.X-offset = #-0.1
 
 \editionMod dynamics 15 0/8 music.Dynamics \cresc
+\editionMod tweaks 15 0/8 music.Voice.E \set fingeringOrientations = #'(down)
+\editionMod tweaks 15 8/8 music.Voice.E \unset fingeringOrientations
 
 \editionMod dynamics 16 2/4 music.Dynamics \sf
 \editionMod dynamics 16 7/8 music.Dynamics \mf
@@ -77,6 +80,9 @@ mintielen = #2.5
 \editionMod articulations 17 1/8 music.Voice.B \(
 \editionMod articulations 17 2/8 music.Voice.B \)
 \editionMod tweaks 17 7/16 music.Voice.A \shape #'((0 . -1.5) (0 . 1.5) (0 . -1) (0 . -2.7)) PhrasingSlur
+\editionMod tweaks 17 4/8 music.Voice.A \set fingeringOrientations = #'(up)
+\editionMod tweaks 17 7/8 music.Voice.A \unset fingeringOrientations
+\editionMod tweaks 17 6/8 music.Voice.A \once\override Fingering.avoid-slur = #'inside
 
 
 \editionMod dynamics 18 0/4 music.Dynamics \>
@@ -154,6 +160,8 @@ mintielen = #2.5
 
 \editionMod dynamics 32 0/4 music.Dynamics \fp
 \editionMod dynamics 32 0/4 music.Voice.A \)
+\editionMod tweaks 32 0/4 music.Voice.A \set fingeringOrientations = #'(left)
+\editionMod tweaks 32 0/4 music.Voice.A \break % avoid measures moving around
 
 \editionMod dynamics 36 0/4 music.Dynamics \pp
 \editionMod articulations 36 0/4 music.Voice.A \(
@@ -167,13 +175,21 @@ mintielen = #2.5
 \editionMod articulations 39 2/4 music.Voice.A \)
 
 \editionMod articulations 40 0/4 music.Voice.H \tiny
+\editionMod tweaks 40 0/16 music.Voice.A \set fingeringOrientations = #'(left)
+\editionMod tweaks 40 2/16 music.Voice.A \set fingeringOrientations = #'(down)
+\editionMod tweaks 40 7/16 music.Voice.A \set fingeringOrientations = #'(left)
+\editionMod tweaks 40 10/16 music.Voice.A \set fingeringOrientations = #'(down)
 
 \editionMod dynamics 41 2/4 music.Dynamics \mf
 \editionMod articulations 41 2/4 music.Voice.H \normalsize
+\editionMod tweaks 41 0/4 music.Voice.A \set fingeringOrientations = #'(left)
+\editionMod tweaks 41 2/4 music.Voice.H \set fingeringOrientations = #'(up)
+\editionMod tweaks 41 4/4 music.Voice.H \unset fingeringOrientations
 
 \editionMod dynamics 42 0/4 music.Dynamics \p
 \editionMod dynamics 42 0/4 music.Dynamics \cresc
 \editionMod articulations 42 1/8 music.Voice.A \(
+\editionMod tweaks 42 0/4 music.Voice.A \unset fingeringOrientations
 \editionMod tweaks 42 1/8 music.Voice.A \shape #'(
   ((0 . -1.5) (-1.5 . 2) (-4 . 2) (0 . 0))
   ((0 . 0) (0 . 0) (0 . 0) (0 . 0))
