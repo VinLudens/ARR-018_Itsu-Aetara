@@ -27,13 +27,13 @@ right = \absolute {
       g''8 bes'16 bes' ~ 16 g''8-5 f''16-4 ~ 16 d''8-3 c''16-2 ~ 16 bes'-5 bes' g'-3 |
       bes'8. bes'16 c'' f'' d''8-4 ~ 4 c''16 bes'8 bes'16 |
       c''8 c''16 c''-5 ~ 16 g''8-5 fis''16-4 ~ 16 d''8-3 c''16-4 ~ 16 bes'-4 bes' g' |
-      bes'2 r2 |
+      bes'2 <c' f' a'>8 \tuplet 3/2 { c'16 f' a' } <d' g' b'>8 \tuplet 3/2 { g'16 a' b' } |
     }
     \new Voice { \voiceTwo
       <g' bes' d''>2 <a' c''> |
       <c' es'>2 <f' a'>4 <f' a'>4 |
       <es' g'>4 <es' g'> <a' c''> <f' a'> |
-      <es' g'>4 <es' g'> <c' f' a'>8 \tuplet 3/2 { c'16 f' a' } <d' g' b'>8 \tuplet 3/2 { g'16 a' b' }  |
+      <es' g'>4 <es' g'> r2 |
       
     }
   >> \oneVoice
