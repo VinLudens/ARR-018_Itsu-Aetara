@@ -190,10 +190,7 @@ mintielen = #2.5
 \editionMod dynamics 42 0/4 music.Dynamics \cresc
 \editionMod articulations 42 1/8 music.Voice.A \(
 \editionMod tweaks 42 0/4 music.Voice.A \unset fingeringOrientations
-\editionMod tweaks 42 1/8 music.Voice.A \shape #'(
-  ((0 . -1.5) (-1.5 . 2) (-4 . 2) (0 . 0))
-  ((0 . 0) (0 . 0) (0 . 0) (0 . 0))
-  ) PhrasingSlur
+\editionMod tweaks 42 1/8 music.Voice.A \shape #'((0 . -1.3) (-1.7 . 2.4) (-6 . 1) (0 . -0.5)) PhrasingSlur
 
 \editionMod dynamics 43 2/4 music.Dynamics \<
 \editionMod articulations 43 2/4 music.Voice.A \)
@@ -209,6 +206,7 @@ mintielen = #2.5
 \editionMod articulations 45 6/8 music.Voice.A \)
 \editionMod articulations 45 15/16 music.Voice.A \(
 \editionMod tweaks 45 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.5
+\editionMod tweaks 45 15/16 music.Voice.A \once\alterBroken positions #'((3.8 . 4.3) ()) PhrasingSlur
 
 \editionMod articulations 47 6/8 music.Voice.A \)
 \editionMod articulations 47 7/8 music.Voice.A \(
@@ -217,7 +215,7 @@ mintielen = #2.5
 \editionMod articulations 48 7/16 music.Voice.A \(
 \editionMod articulations 48 1/8 music.Voice.B \(
 \editionMod articulations 48 2/8 music.Voice.B \)
-\editionMod tweaks 48 7/16 music.Voice.A \shape #'((0 . -1.5) (0 . 1.5) (0 . -1) (0 . -2.9)) PhrasingSlur
+\editionMod tweaks 48 7/16 music.Voice.A \shape #'((0 . -1.2) (0 . 1.5) (0 . -1) (0 . -2.9)) PhrasingSlur
 
 \editionMod articulations 49 0/8 music.Voice.A \)
 \editionMod articulations 49 3/8 music.Voice.A \(
