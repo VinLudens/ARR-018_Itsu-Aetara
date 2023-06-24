@@ -78,7 +78,7 @@ left = \absolute {
 
   bes,,16 f, bes, d f bes d' bes f d bes, f, 
   a,,16 c, e, a, c e f' c' a f c a, |
-  g,16 d g a-3 bes-2 g-1 g,-2 d g bes g d 
+  g,16 d g a-3 bes-2 g-1 g, d g bes-2 g d 
   f,16 c f g-3 a-2 f-1 f, c f a-3 g-2 f-1 |
   
   e,16 b, e-1 bes-2 g-1 e-2 es,-5 bes, es g es bes, 
@@ -151,7 +151,7 @@ left = \absolute {
 
 
   c16 g c' d'  e'16 c g c' e16 b e' b  gis16 b e' b  |
-  a16 c' e' c'  g'16 e' c'8  g16 b d' b  g4  |
+  a16 c' e' c'  \change Staff = "right" \voiceTwo g'16 \change Staff = "left" \oneVoice \stemDown  e' c'8 \stemNeutral  g16 b d' b  g4  |
   <f c'>4 <e b> <d a> <g b d'> |
   
   \tuplet 6/4 { e,16 g, b, e g b } \repeat tremolo 12 { d'32 b } |

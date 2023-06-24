@@ -118,7 +118,7 @@ right = \absolute {
   g'''8 bes''16 bes'' ~ 16 g'''8 f'''16 ~ 16 d'''8 c'''16 ~ 16 bes'' bes'' g'' |
   bes''8. bes''16 c''' bes'' d''' 8 ~ 2 |
   g'''8 bes''16 bes'' ~ 16 g'''8 f'''16 ~ 16 d'''8 c'''16 ~ 16 bes'' bes'' g'' |
-  bes''8. bes''16 c''' d''' c''' bes''16 ~ 4 r8. bes'16-3 |
+  bes''8. bes''16 c''' d''' c''' bes''16 ~ 4 r8. bes'16 |
 
   << { \voiceTwo
       <g'-1 bes'-3>16 <a'-2 c''-4> \change Staff = "left" \clef "treble" \voiceOne <bes'-3 d''-1>8 <g'-5 bes'-3>16 <a'-4 c''-2> <bes'-3 d''-1>  \change Staff = "right" \voiceTwo <c''-1 es''-3> <d''-2 f''-4> <bes'-1 d''-2> \change Staff = "left" \voiceOne \clef "treble" <a'-4 c''-2> <bes'-3 d''-1> <a'-4 c''-2> <g'-5 bes'-3>8. |
@@ -151,7 +151,7 @@ right = \absolute {
   >> \oneVoice
 
   <g' b' e''>4.. c''16 <e'' c'''>8. <d'' b''>16 <b' d''>8. <b' d''>16 |
-  <a' c''>4 r8 c''16 d'' <c'' a''> g'' e''8 r8 e''16 e''16 |
+  <a' c''>4 \voiceOne r8 \oneVoice c''16 d'' <c'' a''> g'' e''8 r8 e''16 e''16 |
   <b' c'' g''>8\arpeggio d''16 d''16 ~ <a' b' d''>16 c''16 c''8 ~ \tuplet 3/2 4 { <g' a' c''>8 c'' c'' <a' g'>8 c'' d''16 c'' ~ }  |
   
   << { \voiceOne
