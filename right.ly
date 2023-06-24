@@ -217,10 +217,10 @@ right = \absolute {
       \voiceOne bes'8.-4 g'16-2 d''8-5 c''8-4 ~ 8 bes'16-4 a' f'8 es'16 d' |
       es'2 \arpeggioArrowUp <c' es' fis' bes'>4\arpeggio c'' |
     }
-    \new Voice { \voiceTwo\hideNotes
+    \new Voice { \voiceOne\hideNotes
       s1 |
       s1 |
-      s8. \tieUp g'16 ~ 4 \tieNeutral s2 |
+      s8. \tieDown g'16 ~ 4 \tieNeutral s2 |
       s1 |
     }
   >> \oneVoice

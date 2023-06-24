@@ -305,4 +305,6 @@ mintielen = #2.5
 \editionMod dynamics 67 0/4 music.Dynamics \fp
 \editionMod articulations 67 0/4 music.Voice.A \)
 
+\editionMod tweaks 69 3/16 music.Voice.L \shape #'((0.4 . 0.7) (-0.0 . 0.8) (-0.2 . 0.8) (-0.6 . 0.7)) Tie
+
 \editionMod dynamics 72 0/4 music.Dynamics \pp
