@@ -234,8 +234,10 @@ mintielen = #2.5
 \editionMod articulations 62 9/16 music.Voice.A ->
 \editionMod articulations 62 0/16 music.Voice.B ->
 \editionMod articulations 62 3/8 music.Voice.A \)
+\editionMod articulations 62 23/16 music.Voice.A \(
 
 \editionMod dynamics 63 0/4 music.Dynamics \ff
+\editionMod articulations 63 19/16 music.Voice.A \)
 \editionMod articulations 63 22/16 music.Voice.A \(
 \editionMod articulations 63 1/16 music.Voice.A \tiny
 \editionMod articulations 63 5/16 music.Voice.A \normalsize
