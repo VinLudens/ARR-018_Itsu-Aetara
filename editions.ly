@@ -18,6 +18,7 @@ mintielen = #2.5
 
 \editionMod dynamics 5 0/4 music.Dynamics \pp
 \editionMod articulations 5 0/4 music.Voice.A \(
+\editionMod tweaks 5 0/4 music.Dynamics \once\override DynamicText.X-offset = #0.2
 
 \editionMod articulations 6 2/4 music.Voice.A \)
 
@@ -33,6 +34,7 @@ mintielen = #2.5
 
 \editionMod dynamics 9 0/4 music.Dynamics \mp
 \editionMod articulations 9 0/4 music.Voice.A \(
+\editionMod tweaks 9 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.5
 
 \editionMod articulations 10 0/4 music.Voice.A \)
 \editionMod articulations 10 3/16 music.Voice.A \(
@@ -55,6 +57,7 @@ mintielen = #2.5
 \editionMod articulations 14 3/8 music.Voice.A \(
 \editionMod articulations 14 6/8 music.Voice.A \)
 \editionMod articulations 14 15/16 music.Voice.A \(
+\editionMod tweaks 14 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.6
 
 \editionMod dynamics 15 0/8 music.Dynamics \cresc
 
@@ -62,6 +65,8 @@ mintielen = #2.5
 \editionMod dynamics 16 7/8 music.Dynamics \mf
 \editionMod articulations 16 6/8 music.Voice.A \)
 \editionMod articulations 16 7/8 music.Voice.A \(
+\editionMod dynamics 16 7/8 music.Dynamics \once\override DynamicText.self-alignment-X = #LEFT
+\editionMod dynamics 16 7/8 music.Dynamics \once\override DynamicText.X-offset = #-0.1
 
 \editionMod articulations 17 0/8 music.Voice.A \)
 \editionMod articulations 17 7/16 music.Voice.A \(
@@ -136,6 +141,7 @@ mintielen = #2.5
 
 \editionMod dynamics 36 0/4 music.Dynamics \pp
 \editionMod articulations 36 0/4 music.Voice.A \(
+\editionMod tweaks 36 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.2
 
 \editionMod articulations 37 2/4 music.Voice.A \)
 
@@ -164,6 +170,7 @@ mintielen = #2.5
 \editionMod articulations 45 3/8 music.Voice.A \(
 \editionMod articulations 45 6/8 music.Voice.A \)
 \editionMod articulations 45 15/16 music.Voice.A \(
+\editionMod tweaks 45 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.5
 
 \editionMod articulations 47 6/8 music.Voice.A \)
 \editionMod articulations 47 7/8 music.Voice.A \(
