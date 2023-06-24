@@ -122,7 +122,7 @@ left = \absolute {
 
 
   es2 \clef "bass" d |
-  \clef "bass" \voiceTwo c \clef "bass" bes,16 f bes d'  bes f bes,8 | \oneVoice
+  \clef "bass" \voiceTwo c \once\override Staff.Clef.X-extent = #'(0 . 1.4) \clef "bass" bes,16 f bes d'  bes f bes,8 | \oneVoice
 
 
 
